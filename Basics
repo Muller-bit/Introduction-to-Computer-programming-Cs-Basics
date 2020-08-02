@@ -1,1 +1,119 @@
+ class Program
+    {
+        static void Main(string[] args)
+        {
+            /*other Types of Data types
+            int myNum = 5 
+            bool isCsharpFun = true;
+            double myDoubleNum = 5.99;
+            string myName = "Mulualem";
+            char myChar = 'A';
+            bool Mybool = "true";*/
+            /* Implicit Cast ,changing from the smaller to the larger 
+             size i.e char- > int ->long->float->double (cilfd)
+              int myNum = 9;
+              double myDouble = myNum;         //Automatic Casting 
+              Console.WriteLine(myInt);      // Outputs 9
+              Console.WriteLine(myDouble);   // Outputs 9
 
+             -- Explicity casting , changing manualy by using parenthesis ()
+
+                 */
+            /* string x = "Show me the money:";
+             int i = int.Parse(x);
+             Console.WriteLine(x);
+             string s = "23";
+             int i = int.Parse(s);
+             s = i.ToString();*/
+            /*1.Write a program which will print "Hello, World!" to the console.
+                2.Write a program which will calculate an area of a rectangle with dimensions stored in variables a
+                and b. Store the result in an additional variable before printing it to the console.
+                3.Given the code presented below, do the following exercises without copying the code into the code
+                editor:
+                 Indicate errors which will occur during compilation.
+                 Indicate errors which will occur during execution.
+                 Fix the errors. 
+                4) compute the value of a quadratic function y = ax2
+                    + bx + c at a given
+                    point x.
+            Console.WriteLine("Hello World");
+              // int a, b;
+            Console.Write("Enter number a:");
+            //string input = Console.ReadLine();
+             int a = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter number b:");
+            // soln 2,  y = ax2+bx + c at a given
+
+            int b  = int.Parse(Console.ReadLine());
+            int Area =  (a * b)/2;  Console.Write("please Enter number c:");
+            int c = int.Parse(Console.ReadLine());
+            Console.WriteLine("The area of the triangle is :"+ Area);
+            //soln for no 4 
+              
+            Console.Write("please Enter number a:");
+            
+            int a = int.Parse(Console.ReadLine());
+
+            Console.Write("please Enter number b:");
+            int b = int.Parse(Console.ReadLine());
+
+            Console.Write("please Enter number c:");
+            int c = int.Parse(Console.ReadLine());
+
+            Console.Write("please Enter number  x:");
+            int x = int.Parse(Console.ReadLine());
+
+            int y = a * (x * x) + b * x + c;
+            Console.WriteLine("The value of y in this quadratic equation is :" + y); 
+
+
+            //11,Write a program which will ask a user to provide a (non-integer) number and output it as an integer.
+            Console.Write("Pelease Enter a Number:");
+            string input = Console.ReadLine();
+            int i = int.Parse(Console.ReadLine());
+            Console.WriteLine(i);
+            //12,raw a filled rectangle made with “*” of width 5 and height 3.
+            Console.WriteLine("*****");
+            Console.WriteLine("* " + " " + " " + "*");
+            
+            Console.WriteLine("*****");
+            Console.WriteLine("13)Draw a tic-tac - toe board using console symbols.");
+            Console.WriteLine(" X |   | O ");
+            Console.WriteLine(" ---+---+---");
+            Console.WriteLine(" X | O | O ");
+            Console.WriteLine(" --+---+---");
+            Console.WriteLine("   |   | ");
+
+            Console.Write("What’s the state of the first field: ");
+
+            string player1 = "", player2 = "";
+           string []numbrs = new string [9] { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+            
+
+            Console.WriteLine(" X |   | O ");
+            Console.WriteLine(" ---+---+---");
+            Console.WriteLine(" X | O | O ");
+            Console.WriteLine(" --+---+---");
+            Console.WriteLine("   |   | ");
+
+            Console.WriteLine("Welcome to tic - tac - toe!");
+          
+            double myDouble = 9.75;
+
+            int myInt = (int) myDouble;
+
+            Console.WriteLine(myDouble); //9.75
+            Console.WriteLine(myInt);// 9   */
+
+            //string Interpolation 
+
+            string firstname = "Muller";
+            string lastname = " Daula";
+            string fullName = $"My name is {firstname}  {lastname}";
+            Console.WriteLine(fullName);
+            Console.ReadLine();  
+            
+        }
+    }
+}
