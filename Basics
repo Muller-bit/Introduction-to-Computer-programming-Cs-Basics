@@ -25,6 +25,23 @@
              string s = "23";
              int i = int.Parse(s);
              s = i.ToString();*/
+             //Working with string 
+             
+             string a = "hello, world"; // hello, world
+            Console.WriteLine(a);
+            string b = @"hello, world"; // hello, world
+            Console.WriteLine(b);
+            
+            string c = "hello \t world"; // hello world
+            Console.WriteLine(c);
+            
+            string d = @"hello \t world"; // hello \t world
+            Console.WriteLine(d);
+            string e = "Joe said \"Hello\" to me";
+            Console.WriteLine(e);
+            
+            //PRACTICAL EXERCISE 
+            
             /*1.Write a program which will print "Hello, World!" to the console.
                 2.Write a program which will calculate an area of a rectangle with dimensions stored in variables a
                 and b. Store the result in an additional variable before printing it to the console.
